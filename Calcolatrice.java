@@ -116,6 +116,10 @@ class Calcolatrice{
         }
     }
     public boolean verificaCambioPile(){
-        if(nOperazioni)
+        if(nOperazioni == nDefOp){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
